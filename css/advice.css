@@ -1,0 +1,69 @@
+#advice {
+    padding-top: 200px;
+}
+
+.advice-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-box p {
+    margin-bottom: 80px;
+    max-width: 410px;
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.advice-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advice-card-1 {
+    padding: 20px;
+    display: flex;
+    max-width: 232px;
+    height: 160px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 15px; */
+}
+
+.advice-text {
+    padding-bottom: 10px;
+    color: var(--text-color, #252B42);
+    max-width: 120px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.advice-card-1 p {
+    /* margin-bottom: 30px; */
+    color: var(--second-text-color, #737373);
+    max-width: 140px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.advice-card img {
+    max-width: 232px;
+    height: 138px;
+}

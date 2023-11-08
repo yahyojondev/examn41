@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url(home.css);
+@import url(about.css);
+@import url(advice.css);
+@import url(services.css);
+@import url(advetasing.css);
+@import url(contact.css);
+@import url(table.css);
+@import url(footer.css);

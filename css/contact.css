@@ -1,0 +1,115 @@
+#contact {
+    margin-top: 145px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box h2 {
+    margin-bottom: 10px;
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.contact-box p {
+    color: var(--second-text-color, #737373);
+    max-width: 410px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.contact-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.contact-card {
+    display: flex;
+    max-width: 328px;
+    height: 333px;
+    padding: 50px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #FFF;
+}
+
+.contact-card img {
+    margin-bottom: 10px;
+    width: 72px;
+    height: 72px;
+}
+
+.contact-card p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.contact-card h6 {
+    margin-bottom: 10px;
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.contact-card button {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color, #FFA62B);
+    color: var(--primary-color, #FFA62B);
+    background: transparent;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.contact-card button:hover {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.contact-card:hover {
+    background: var(--dark-background-color, #252B42);
+}
+
+.contact-card p,
+h6:hover {
+    color: var(--light-text-color, #FFF);
+
+}
